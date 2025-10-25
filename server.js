@@ -10,7 +10,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173",         // local dev
     "http://192.168.1.3:5173",       // local network
-    "https://your-frontend-domain.com" // deployed frontend (if you deploy later)
+    "https://villagerclothing.vercel.app/" // deployed frontend (if you deploy later)
   ], // Vite's default frontend URL
   credentials: true,
 }));
