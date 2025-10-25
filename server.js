@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import '../backend/models/db.js'
+import './models/db.js'
 import authRouter from './routes/authRoutes.js'
 import cookieParser from 'cookie-parser';
 import productRouter from './routes/fetchRouter.js'
